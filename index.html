@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Антон Костылев — Продуктовый дизайнер</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Manrope', sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #fdfdfd;
+      color: #1a1a1a;
+    }
+
+    header {
+      padding: 4rem 2rem 2rem;
+      background: linear-gradient(135deg, #0081BD, #00B4D8);
+      color: white;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 1rem;
+      font-size: 2.5rem;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #ffffffcc;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    main {
+      padding: 3rem 1.5rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    section#intro {
+      margin-bottom: 4rem;
+      font-size: 1.2rem;
+      text-align: center;
+    }
+
+    section#projects > h2,
+    section#contacts > h2 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      border-bottom: 2px solid #0081BD;
+      display: inline-block;
+    }
+
+    section.project {
+      margin-bottom: 3rem;
+      padding: 2rem;
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease;
+    }
+
+    section.project:hover {
+      transform: translateY(-4px);
+    }
+
+    section.project h3 {
+      margin-top: 0;
+      color: #0081BD;
+    }
+
+    footer {
+      padding: 2rem;
+      background: #f0f0f0;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    a {
+      color: #0081BD;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Антон Костылев — Продуктовый дизайнер</h1>
+    <nav>
+      <a href="#projects">Проекты</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+  </header>
+  <main>
+    <section id="intro">
+      <p>Я создаю понятные и удобные интерфейсы, работаю с B2B и B2C сервисами, поддерживаю дизайн-системы и плотно взаимодействую с разработкой. Этот сайт — краткий обзор моих проектов.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Проекты</h2>
+
+      <section class="project">
+        <h3>Оформление заказа</h3>
+        <p>Проект для сайта полиграфии. Разработал сценарий оформления заказа: от авторизации по номеру телефона до выбора доставки и оплаты. Учитывались потребности B2B-клиентов и повторяющиеся заказы.</p>
+      </section>
+
+      <section class="project">
+        <h3>Электронная подарочная карта</h3>
+        <p>Добавил новый тип продукта в систему — цифровой подарочный сертификат. Продумал пользовательский путь от покупки до активации, включая дизайн email и логики кода.</p>
+      </section>
+
+    </section>
+
+    <section id="contacts">
+      <h2>Контакты</h2>
+      <p>Связаться со мной можно через <a href="https://www.linkedin.com/in/antonkostylev">LinkedIn</a>.</p>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Антон Костылев
+  </footer>
+</body>
+</html>
